@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation testing">
+
+	<listeners>
+		<listener class-name="com.spotify.code.Reporting"></listener>
+	</listeners>
+	
+	<parameter  name="Url"  value= "https://www.spotify.com/in-en/free/ "> </parameter>
+	
+	<parameter name="Browser" value="chrome"> </parameter>
+	
+	<test thread-count="5" name="functional testing" parallel="classes">
+		
+		<classes>
+		<!-- 	<class name="com.spotify.code.TC_Spotify_001" />  --> 
+		 	<class name="com.spotify.code.TC_Spotify_002" /> 
+		</classes>
+	</test>
+
+</suite> 
