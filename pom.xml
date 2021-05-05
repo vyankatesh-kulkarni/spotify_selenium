@@ -84,7 +84,7 @@
                     <version>2.22.1</version>
                     <configuration>
 			          <suiteXmlFiles>
-			            <suiteXmlFile>spotify.xml</suiteXmlFile>
+			            <suiteXmlFile>C:\Users\vyankatesh\git\spotifyProject\spotiyfProject\src\test\java\com\spotify\code\spotify.xml</suiteXmlFile>
 			          </suiteXmlFiles>
         </configuration>
                 </plugin>
